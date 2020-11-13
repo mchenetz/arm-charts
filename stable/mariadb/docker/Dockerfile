@@ -1,5 +1,5 @@
-FROM easypi/alpine-arm:3.6
-LABEL maintainer "Peter Huene <peter@segfault.guru>"
+FROM alpine:latest
+LABEL maintainer "Michael Chenetz <mchenetz@cisco.com>"
 
 RUN set -xe \
     # Install packages
